@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Oksana Kovalchuk](https://up.htmlacademy.ru/htmlcss/16/user/334763).
-* Наставник: `Неизвестно`.
+* Наставник:[Ксения Торкова](https://htmlacademy.ru/profile/23249).
 
 ---
 
