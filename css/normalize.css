@@ -1,161 +1,33 @@
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
-html,
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  line-height: 1.15; /* 2 */
+  -ms-text-size-adjust: 100%; /* 3 */
+  -webkit-text-size-adjust: 100%; /* 3 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+
 body {
-  min-width: 900px;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  width: 900px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.main-header {
-    margin-bottom: 60px;
-}
-
-.main-navigation {
-  float: left;
-  width: 354px;
-  min-height: 44px;
-}
-
-.user-block {
-  float: right;
-  width: 268px;
-  min-height: 44px;
-}
-
-.logo {
-  width: 155px;
-  min-height: 65px;
-  float: left;
-}
-
-.slider {
-  width: 860px;
-  height: 500px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.container {
-  width: 860px;
-  min-height: 230px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.banner {
-  float: left;
-  width: 420px;
-  min-height:230px;
-}
-
-.banner {
-  float: right;
-  width: 420px;
-  min-height: 230px;
-}
-
-.item {
-  float: right;
-  width: 205px;
-  min-height: 275px;
-}
-
-.container {
-  width: 860px;
-  min-height: 375px;
-}
-
-.left-column {
-  width: 420px;
-  min-height: 275px;
-}
-.right-column {
-  width: 420px;
-  min-height: 275px;
-}
-
-.left-container {
-  width: 420px;
-  min-height: 220px;
-  float: left;  
-}
-
-.right-container {
-  width: 420px;
-  min-height: 220px;
-  float: right;
-}
-
-.block-map {
-  width: 900px;
-  min-height: 430px;
-  margin-right: auto;
-  margin-left: auto;
-
-}
-.main-footer {
-  width: 900px;
-  min-height: 100px;
-  margin-top: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-.footer-social {
-  float: left;
-  width: 195px;
-  min-height: 100px;
-}
-
-.footer-title {
-  float: left;
-  width: 420px;
-  min-height: 100px;
-}
-
-.footer-copyright {
-  float: right;
-  width: 200px;
-  min-height: 100px;
-}
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-.body {
   margin: 0;
 }
 
-.container {
-  width: 900px;
-  margin: 50px auto;
-}
-
-.outline {
-  border: 3px solid black;
-}
 /**
  * Add the correct display in IE 9-.
  */
@@ -587,3 +459,23 @@ template {
 [hidden] {
   display: none;
 }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
