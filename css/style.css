@@ -140,14 +140,32 @@ body {
     padding-left: 20px; 
     width: 860px;  
    background-color:#eef06c;  
-    margin-right: auto;
-  margin-left: auto;
-    margin-top: 40px;
-    
+    margin-left: auto;
+    margin-right: auto;   
+    margin-top: 40px;    
 }
+.fieldset1 {
+    margin-right: 20px;
+    width: 200px;
+}
+.fieldset1 {
+    margin-right: 10px;
+    width: 220px;
+}
+.fieldset3 {
+    width: 420px;
+}
+
+.fieldset4 {
+    margin-left: 20px;
+    width: 700px;
+}
+
 
 .sort {
     display: none;
+    padding-right: 20px;
+    
 }
 
 .topping {
@@ -158,21 +176,33 @@ body {
     margin-right: auto;
   margin-left: auto;
     margin-top: 20px;
+       
 }
 
 .item-block-2{
-     display:inline-block;
-    padding-left: 20px;
-    width: 860px;    
+   
+    width: 880px;    
    background-color:#eef06c;  
-    margin-top: 20px; 
+    margin-top: 30px; 
     margin-right: auto;
   margin-left: auto;
     margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.item-block-2 item{
+    font-size: 0;
+    position: relative;
+    padding-right: 16px;
+    padding-left: 15px;  
+    
 }
 
 .row-1{
-   display:flex;  
+   display:flex;
+    
      
     
 }
@@ -245,17 +275,38 @@ body {
   text-align: center;
   margin-right: auto;
   margin-left: auto; 
-   margin-top: 40px;   
+   margin-top: 40px; 
 }
 
 .item {
   display: inline-block;
-  width: 205px;
+  width: 220px;
   min-height: 275px;
     margin-right: 20px;
+    padding-top: 10px;
+    
 }
 
-.item img {
+.item span {
+    position:relative;
+    font-size: 45px;
+    bottom: 55px;
+    left: 0;
+}
+
+.item h3 {
+    font-size: 22px;
+    text-align: center;
+}
+    
+ .item-hit {
+     position: relative; 
+     top:0
+    } 
+   
+
+
+.item img {    
     border-radius: 50%;
 }
 
