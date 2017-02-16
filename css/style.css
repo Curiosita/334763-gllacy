@@ -228,6 +228,8 @@ body {
 .paginator {
     display: flex;
     position: relative;
+    width: 190px;
+    margin-left: auto;
     
     
 
@@ -294,16 +296,19 @@ body {
   display: inline-block;
   width: 220px;
   min-height: 275px;
-    margin-right: 20px;
-    padding-top: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+    position: relative;    
     
 }
 
 .item span {
     position:absolute;
     font-size: 45px;
-    bottom: 55px;
-    left: 0;
+    top: 153px;
+    left: 10px;
+    
 }
 
 .item h3 {
@@ -311,13 +316,16 @@ body {
     text-align: center;
 }
     
- .item-hit {
-     position: relative; 
-     top:0
+ .item.hit {
+     background: url ("img/hit.png")
+     position: absolute; 
+     width: 61px;
+     height: 61px;
+     content:"";
+     top:0;
+     left:0;
     } 
    
-
-
 .item img {    
     border-radius: 50%;
 }
@@ -469,7 +477,6 @@ margin-right: auto;
 .footer-title {
   display: inline-block;
   width: 420px;
-  min-height: 100px;
   padding-top: 40px; 
    padding-bottom: 35px; 
 }
